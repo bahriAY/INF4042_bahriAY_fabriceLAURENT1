@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SecondApp</string>
+    <string name="Click">button_text</string>
+    <string name="Title"> Hello World !!</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="Click2"> Date </string>
+    <string name="act_setting"> Setting </string>
+</resources>

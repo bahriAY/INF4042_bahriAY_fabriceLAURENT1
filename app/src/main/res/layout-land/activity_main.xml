@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/Title"
+        android:id="@+id/tv_hello_world"/>
+
+    <Button
+        android:text="@string/Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/btn_hello_world"
+        android:onClick="btn_hw.setOnClickListener"/>
+
+
+    <Button
+        android:id="@+id/btn2_hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Click2"
+        android:onClick="btn.setOnClickListener"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notif"
+        android:text="notification"
+        android:onClick="showNotification"/>
+
+</LinearLayout>
+
+
+
